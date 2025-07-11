@@ -3,17 +3,19 @@ class Person {
 //private field
 private int age;
 
-// getter method
-public int getter() {
-return age;
-
 //setter method
-public void setter(int age) {
+public void setAge(int age) {
   this.age = age;
   }
+
+// getter method
+public int getAge() {
+return age;
 }
 
-class Main {
+}
+
+class Main{
 public static void Main(String[] args) {
 
 //create an object of Person
